@@ -101,7 +101,7 @@ async function main({
   output.setStyle(cmd.style);
 
   const res: ResponseType = await output.req(
-    "http://65.109.80.126:20409/aryan/gemini",
+    "https://arychauhann.onrender.com/api/gpt5",
     {
       uid: input.sid + "_7",
       ask,
