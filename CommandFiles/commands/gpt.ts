@@ -101,7 +101,7 @@ async function main({
   output.setStyle(cmd.style);
 
   const res: ResponseType = await output.req(
-    "http://65.109.80.126:20409/aryan/gpt-4",
+    "http://65.109.80.126:20409/aryan/gemini",
     {
       uid: input.sid + "_7",
       ask,
